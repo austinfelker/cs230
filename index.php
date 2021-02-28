@@ -1,3 +1,7 @@
+<?php
+require 'includes/header.php';
+?>
+
 <body>
    <title>MonkeyCritic.com</title>
     <link rel="stylesheet" href="css/about.css">
