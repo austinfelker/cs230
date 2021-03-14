@@ -31,7 +31,7 @@ if (isset($_POST['prof-submit'])) { //taken from profile.php
         header("Location: ../profile.php?error=FileSizeExceeded");
         exit();
     }
-
+    else {
         $new_name = uniqid('',true).".".$ext; //creates the name of the profile pic and appends 10 random chars at the end of it to add uniqueness
         $destination = '../profiles/'.$new_name; //variable for the location of the prof pic to the profiles folder
         $sql = "UPDATE profiles SET profpic='$destination' WHERE uname='$uname'"; //updates the profile in mysql
@@ -40,6 +40,8 @@ if (isset($_POST['prof-submit'])) { //taken from profile.php
 
         header("Location: ../profile.php?success=UploadWin");
         exit();
+    }
+        
 
 }
 else {

@@ -41,11 +41,17 @@ session_start();
                         </1i>
                         <li c1ass="nav-item">
                             <a class="nav-link" href="profile.php">Profile</a>
+                        </li>
+                        <li c1ass="nav-item">
+                            <a class="nav-link" href="admin.php">Admin</a>
                         </li>';
                     }
                     else {
                         echo '<li c1ass="nav-item">
                         <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                        <li c1ass="nav-item">
+                        <a class="nav-link" href="signup.php">Sign Up</a>
                         </li>';
                     }
                     ?>
