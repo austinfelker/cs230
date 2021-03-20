@@ -25,14 +25,14 @@ require "includes/header.php"
                                     </div>
                                 </div>
                             </div>
-                             <input type="text" class="form-control" name="uname" placeholder="Username" required autofocus>
+                            <input type="text" class="form-control" name="uname" placeholder="Username" required autofocus>
 
                             <label for="inputEmail" class="visually-hidden">Email address</label>
                             <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address" required autofocus>
 
                             <label for="inputPassword" class="visually-hidden">Password</label>
                             <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
-                            
+
                             <label for="inputPassword" class="visually-hidden">Confirm Password</label>
                             <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password" required>
 
